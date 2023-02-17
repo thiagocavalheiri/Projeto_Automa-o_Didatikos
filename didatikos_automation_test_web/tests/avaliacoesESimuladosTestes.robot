@@ -19,3 +19,4 @@ Validar Avaliacoes e Simulados
     Login com perfil Escola
     Acessar Avaliações / Simulados
     Verificar pagina avaliacoes e simulados
+    
