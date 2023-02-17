@@ -1,0 +1,74 @@
+{"level":30,"time":"2023-02-17T00:56:17.334Z","pid":74672,"hostname":"Wender","msg":"Listening on 60299"}
+{"level":30,"time":"2023-02-17T00:56:17.354Z","pid":74672,"hostname":"Wender","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:56:17.355Z","pid":74672,"hostname":"Wender","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:56:17.358Z","pid":74672,"hostname":"Wender","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:56:17.358Z","pid":74672,"hostname":"Wender","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Python\Python38\lib\site-packages\Browser\wrapper\index.js:9406:15)
+    at PlaywrightServer.getActiveBrowser (C:\Python\Python38\lib\site-packages\Browser\wrapper\index.js:9952:59)
+    at PlaywrightServer.setTimeout (C:\Python\Python38\lib\site-packages\Browser\wrapper\index.js:10197:69)
+    at C:\Python\Python38\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Python\Python38\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:395:13)
+    at ServerHttp2Stream.onEnd (C:\Python\Python38\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:382:22)
+    at ServerHttp2Stream.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+=============================================================
+{"level":30,"time":"2023-02-17T00:56:17.370Z","pid":74672,"hostname":"Wender","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-02-17T00:56:17.738Z","pid":74672,"hostname":"Wender","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-02-17T00:56:17.743Z","pid":74672,"hostname":"Wender","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-02-17T00:56:17.744Z","pid":74672,"hostname":"Wender","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-02-17T00:56:17.744Z","pid":74672,"hostname":"Wender","msg":"Trace file: "}
+{"level":30,"time":"2023-02-17T00:56:17.761Z","pid":74672,"hostname":"Wender","msg":"Changed active context"}
+{"level":30,"time":"2023-02-17T00:56:17.761Z","pid":74672,"hostname":"Wender","msg":"End of node method newContext"}
+{"level":30,"time":"2023-02-17T00:56:17.764Z","pid":74672,"hostname":"Wender","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-02-17T00:56:17.765Z","pid":74672,"hostname":"Wender","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-02-17T00:56:18.005Z","pid":74672,"hostname":"Wender","msg":"Video path: undefined"}
+{"level":30,"time":"2023-02-17T00:56:18.005Z","pid":74672,"hostname":"Wender","msg":"Changed active page"}
+{"level":30,"time":"2023-02-17T00:56:21.261Z","pid":74672,"hostname":"Wender","msg":"End of node method newPage"}
+{"level":30,"time":"2023-02-17T00:56:21.280Z","pid":74672,"hostname":"Wender","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-02-17T00:56:21.280Z","pid":74672,"hostname":"Wender","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2023-02-17T00:56:21.313Z","pid":74672,"hostname":"Wender","msg":"End of node method fillText"}
+{"level":30,"time":"2023-02-17T00:56:21.317Z","pid":74672,"hostname":"Wender","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-02-17T00:56:21.317Z","pid":74672,"hostname":"Wender","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2023-02-17T00:56:21.334Z","pid":74672,"hostname":"Wender","msg":"End of node method fillText"}
+{"level":30,"time":"2023-02-17T00:56:21.337Z","pid":74672,"hostname":"Wender","msg":"Start of node method click"}
+{"level":30,"time":"2023-02-17T00:56:21.337Z","pid":74672,"hostname":"Wender","msg":"Strict mode is enabled, find Locator with xpath=//button in page."}
+{"level":30,"time":"2023-02-17T00:56:21.396Z","pid":74672,"hostname":"Wender","msg":"End of node method click"}
+{"level":30,"time":"2023-02-17T00:56:21.400Z","pid":74672,"hostname":"Wender","msg":"Start of node method getElement"}
+{"level":30,"time":"2023-02-17T00:56:21.401Z","pid":74672,"hostname":"Wender","msg":"Strict mode is enabled, find Locator with xpath=//title[text()='Página Inicial - Didatikos'] in page."}
+{"level":30,"time":"2023-02-17T00:56:24.334Z","pid":74672,"hostname":"Wender","msg":"End of node method getElement"}
+{"level":30,"time":"2023-02-17T00:56:24.337Z","pid":74672,"hostname":"Wender","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-02-17T00:56:24.580Z","pid":74672,"hostname":"Wender","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-02-17T00:56:24.587Z","pid":74672,"hostname":"Wender","msg":"Start of node method click"}
+{"level":30,"time":"2023-02-17T00:56:24.587Z","pid":74672,"hostname":"Wender","msg":"Strict mode is enabled, find Locator with xpath=//*[@class='f-16 text-bold px-15px'][text()='Avaliações / Simulados'] in page."}
+{"level":30,"time":"2023-02-17T00:56:25.291Z","pid":74672,"hostname":"Wender","msg":"End of node method click"}
+{"level":30,"time":"2023-02-17T00:56:25.482Z","pid":74672,"hostname":"Wender","msg":"Start of node method click"}
+{"level":30,"time":"2023-02-17T00:56:25.482Z","pid":74672,"hostname":"Wender","msg":"Strict mode is enabled, find Locator with xpath=(//*[@id=\"app\"]//p)[1] in page."}
+{"level":30,"time":"2023-02-17T00:56:26.384Z","pid":74672,"hostname":"Wender","msg":"End of node method click"}
+{"level":30,"time":"2023-02-17T00:56:26.479Z","pid":74672,"hostname":"Wender","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:56:26.484Z","pid":74672,"hostname":"Wender","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:56:26.486Z","pid":74672,"hostname":"Wender","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:56:26.489Z","pid":74672,"hostname":"Wender","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:56:26.492Z","pid":74672,"hostname":"Wender","msg":"Changed active context"}
+{"level":30,"time":"2023-02-17T00:56:26.493Z","pid":74672,"hostname":"Wender","msg":"Changing current active page"}
+{"level":30,"time":"2023-02-17T00:56:26.493Z","pid":74672,"hostname":"Wender","msg":"Changed active page"}
+{"level":30,"time":"2023-02-17T00:56:26.496Z","pid":74672,"hostname":"Wender","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:56:26.498Z","pid":74672,"hostname":"Wender","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:56:26.499Z","pid":74672,"hostname":"Wender","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-02-17T00:56:26.500Z","pid":74672,"hostname":"Wender","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-02-17T00:56:26.501Z","pid":74672,"hostname":"Wender","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-02-17T00:56:26.501Z","pid":74672,"hostname":"Wender","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-02-17T00:56:26.503Z","pid":74672,"hostname":"Wender","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:56:26.504Z","pid":74672,"hostname":"Wender","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:56:26.507Z","pid":74672,"hostname":"Wender","msg":"Changed active context"}
+{"level":30,"time":"2023-02-17T00:56:26.507Z","pid":74672,"hostname":"Wender","msg":"Changing current active page"}
+{"level":30,"time":"2023-02-17T00:56:26.507Z","pid":74672,"hostname":"Wender","msg":"Changed active page"}
+{"level":30,"time":"2023-02-17T00:56:26.510Z","pid":74672,"hostname":"Wender","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-02-17T00:56:26.520Z","pid":74672,"hostname":"Wender","msg":"Removed page=41ae3e61-a534-4a5f-98f2-b30f878e0f3c from context=66613bbe-0d45-4eec-98be-1086490cce50 page stack"}
+{"level":30,"time":"2023-02-17T00:56:26.539Z","pid":74672,"hostname":"Wender","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-02-17T00:56:26.549Z","pid":74672,"hostname":"Wender","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:56:26.549Z","pid":74672,"hostname":"Wender","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:56:28.600Z","pid":74672,"hostname":"Wender","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-02-17T00:56:28.703Z","pid":74672,"hostname":"Wender","msg":"End of node method closeAllBrowsers"}
