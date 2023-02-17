@@ -6,6 +6,7 @@ Resource        ../pages/loginPage.robot
 Resource        ../Resources/baseTestes.robot
 Resource        ../pages/homeEscolaPage.robot
 Resource        ../pages/avaliacoesESimuladosPage.robot
+Resource        ../pages/gerenciarAvaliacoesPage.robot
 
 Test Setup           Iniciar testes     
 
@@ -19,4 +20,4 @@ Validar Avaliacoes e Simulados
     Login com perfil Escola
     Acessar Avaliações / Simulados
     Verificar pagina avaliacoes e simulados
-    Acessar 
+    Clicar Avaliações Autorais
