@@ -9,7 +9,7 @@ Resource        ../pages/avaliacoesESimuladosPage.robot
 Resource        ../pages/gerenciarAvaliacoesPage.robot
 
 Resource        ../pages/gerenciarAvaliacoesPage.robot
-=======
+
 
 
 Test Setup           Iniciar testes     
@@ -33,6 +33,6 @@ Validar Avaliacoes e Simulados
 
     Clicar Avaliações Autorais
     
-    Acessar 
+     
 
 
