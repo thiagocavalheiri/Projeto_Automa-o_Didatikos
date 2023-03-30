@@ -1,3 +1,8 @@
+
+
+ #fazer a validação das funcionalidades de "Avaliação Word"
+
+
 *** Settings ***
 
 Library      Browser
@@ -8,7 +13,9 @@ Resource        ../pages/homeEscolaPage.robot
 Resource        ../pages/avaliacoesESimuladosPage.robot
 Resource        ../pages/gerenciarAvaliacoesPage.robot
 
+
 Resource        ../pages/gerenciarAvaliacoesPage.robot
+
 
 
 
@@ -20,6 +27,12 @@ ${VALUE_VAZIO}=
 
 
 *** Test Cases ***
+
+Validar o acesso de Avaliação Word
+    Login com perfil Escola
+    Acessar Avaliações / Simulados
+    Verificar pagina avaliacoes e simulados
+    Clicar na opção Avaliações Word
 
 Validar Avaliacoes Online
     Login com perfil Escola
