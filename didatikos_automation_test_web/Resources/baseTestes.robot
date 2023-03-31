@@ -1,14 +1,19 @@
 *** Settings ***
 
 Library        Browser
+
 *** Variables ***
+
 ${navegador}
+${dispositivo}
+${execucao}
+
 
 *** Keywords ***
 
 Iniciar testes
   
-    ${old_timeout} =    Set Browser Timeout    30 seconds
+  ${old_timeout} =    Set Browser Timeout    30 seconds
     
   IF  '${execucao}' == 'web'
       Open Browser        http://didatikos-hmg.didatikos.com.br/ava/login              ${navegador}        headless=False               
@@ -21,3 +26,4 @@ Iniciar testes
       New Persistent Context         headless=false        &{device}        url=http://didatikos-hmg.didatikos.com.br/ava/login        isMobile=True                            
       Set Browser Timeout            ${old_timeout}      
   END
+
